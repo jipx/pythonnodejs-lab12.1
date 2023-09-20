@@ -10,7 +10,7 @@
             "Priority": 0,
             "Statement": {
                 "IPSetReferenceStatement": {
-                    "ARN": "<FMI_4>"
+                    "ARN": "arn:aws:wafv2:us-east-1:414728139848:global/ipset/office/598c6571-9717-4ccc-a968-2fa70a975101"
                     }
                 },
             "Action": {

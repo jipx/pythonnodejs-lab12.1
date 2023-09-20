@@ -6,7 +6,7 @@
             "Effect": "Deny",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::<FMI_1>/report.html",
+            "Resource": "arn:aws:s3:::c81790a1735464l4721648t1w414728139848-s3bucket-1i2a5ied6a6ad/report.html",
             "Condition": {
                 "StringNotEquals": {
                     "s3:authtype": "REST-QUERY-STRING"
@@ -17,10 +17,10 @@
             "Sid": "AllowOAIAccess",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity <FMI_3>"
+                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity EA1ARPD0ZWDYQ"
             },
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::<FMI_1>/*"
+            "Resource": "arn:aws:s3:::c81790a1735464l4721648t1w414728139848-s3bucket-1i2a5ied6a6ad/*"
         }
     ]
 }

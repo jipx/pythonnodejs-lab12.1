@@ -10,7 +10,7 @@
             "Priority": 0,
             "Statement": {
                 "IPSetReferenceStatement": {
-                    "ARN": "<FMI_5>"
+                    "ARN": "arn:aws:wafv2:us-east-1:414728139848:regional/ipset/office_regional/a5a0452d-6bc0-446a-9bb4-0f95d313725b"
                     }
                 },
             "Action": {
